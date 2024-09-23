@@ -11,7 +11,7 @@ public class Sbms03Application {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext config = SpringApplication.run(Sbms03Application.class, args);
-		
+		String s = "new file added"
 		UserServices bean = config.getBean(UserServices.class);
 		
 		bean.getName(18);
